@@ -1,8 +1,14 @@
 # Knee Tear Detection using MRNet with Neural Networks
 
-A model to detect Knee Tears with MRNet data, a set of X ray 3D tesor data with the help of 3D Convolutional Layers to extraxt.
+A model to detect Knee Tears trying to eliminate the step of Doctor's examination of the MRI scan results with MRNet data, a set of 3D tesor data with the help of 3D Convolutional Layers followed by the Convolutional Layers of ResNet50 to extract the features and one hidden Fully Connected Layer and one Output Layer.
+
+Achieved ~95% of Training Accuracy and ~90% Testing Accuracy.
 
 *From https://stanfordmlgroup.github.io/competitions/mrnet/*
+
+### About Dataset
+
+The MRNet dataset consists of 1,370 knee MRI exams performed at Stanford University Medical Center. The dataset contains 1,104 (80.6%) abnormal exams, with 319 (23.3%) ACL tears and 508 (37.1%) meniscal tears; labels were obtained through manual extraction from clinical reports. The dataset accompanies the publication of the MRNet work here.
 
 
 ### Dataset Details
