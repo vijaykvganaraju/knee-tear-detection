@@ -1,6 +1,6 @@
 # Knee Tear Detection using MRNet with Neural Networks
 
-A model to detect Knee Tears trying to eliminate the step of Doctor's examination of the MRI scan results with MRNet data, a set of 3D tesor data with the help of 3D Convolutional Layers followed by the Convolutional Layers of ResNet50 to extract the features and one hidden Fully Connected Layer and one Output Layer.
+A model to detect Knee Tears trying to eliminate the step of Doctor's examination of the MRI scan results with MRNet data, a set of 3D tensor data with the help of 3D Convolutional Layers followed by the Convolutional Layers of ResNet50 to extract the features and one hidden Fully Connected Layer and one Output Layer.
 
 Achieved ~95% of Training Accuracy and ~90% Testing Accuracy.
 
